@@ -1,0 +1,7 @@
+services:
+  node:
+    container_name: node
+    build:
+      context: ./node
+    ports:
+      - '8082:80'
